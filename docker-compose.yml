@@ -1,0 +1,8 @@
+version: '3'
+services:
+    directus:
+        build: .
+        ports:
+            - 8072:8055
+        env_file:
+            - .env
